@@ -82,5 +82,30 @@ header>nav>a{
 }
 .section-1-left>img{
     width: 40vw;
+}
 
+.section-2{
+    display: flex;
+}
+.right-sc-2{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 2vw;
+}
+.right-sc-2>h2{
+    font-size: 40px;
+    width: 50%;
+    color: #314584;
+}
+.right-sc-2>button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 2vh 2vw;
+    background-color: #FF3946;
+    border-radius: 50px;
+    display: flex;
+    align-items: start;
 }
