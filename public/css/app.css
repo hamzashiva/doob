@@ -35,3 +35,52 @@ header>nav>a{
     color: #ffffff;
     background-color: #FF3946;
 }
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-1-right{
+    padding-left: 6vw;
+ display: flex;
+ flex-direction: column;
+ gap: 3vw;
+}
+.section-1-right>h1{
+    width: 50%;
+    font-size: 5rem;
+    color: #314584;
+}
+.section-1-right>p{
+    font-size: 30px;
+    width: 60%;
+    color: rgb(68, 68, 68);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.btn-about{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 2vh 2vw;
+    background-color: #FF3946;
+    border-radius: 50px;
+}
+.btn-touch{
+    text-decoration: none;
+    color: #314584;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.section-1-left>img{
+    width: 40vw;
+
+}
