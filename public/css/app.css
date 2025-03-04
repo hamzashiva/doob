@@ -65,6 +65,7 @@ header>nav>a{
     gap: 2vw;
 }
 .btn-about{
+    width: 7vw;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
@@ -85,17 +86,20 @@ header>nav>a{
 }
 
 .section-2{
+    padding-inline: 10vw;
     display: flex;
+    gap: 4vw;
 }
 .right-sc-2{
+    margin-top: 5vh;
+    padding: 3vh 2vw;
     display: flex;
     flex-direction: column;
-    width: 30vw;
     gap: 2vw;
 }
 .right-sc-2>h2{
     font-size: 40px;
-    width: 50%;
+    width: 60%;
     color: #314584;
 }
 .right-sc-2>button{
@@ -108,4 +112,27 @@ header>nav>a{
     border-radius: 50px;
     display: flex;
     align-items: start;
+}
+
+.box-sc-2{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 4vw;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.123);
+    border-radius: 5px;
+    gap: 2vw;
+}
+
+.box-sc-2>svg{
+    color: #FF3946;
+}
+
+.box-sc-2>h3{
+    font-size: 40px;
+    color: #314584;
+}
+
+.box-sc-2>p{
+    font-size: 30px;
 }
