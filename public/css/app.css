@@ -185,5 +185,45 @@ nav{
    #menu:checked + nav{
     left: 0;
    }
+
+   /* section 1 */
+   .section-1{
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 0vw;
+    align-items: center;
+    background-image: url("../images/hero-section.png");
+    background-repeat: no-repeat;
+   
+   }
+
+
+   .section-1-right>h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+   }
+   .section-1-right>p{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding-inline: 2vw;
+   }
+
+   .btn{
+    flex-direction: column;
+    gap: 2vw;
     
+   }
+   .btn-about{
+    padding: 1vh 0.1vw;
+    width: 50vw;
+    text-align: center
+   }
+   .section-1-left{
+    display: none;
+   }
+
+   
 }
