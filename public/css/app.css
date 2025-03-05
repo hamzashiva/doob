@@ -146,6 +146,55 @@ header>nav>a{
     font-size: 30px;
 }
 
+/* secend part of project y said  */
+
+.contact-area{
+    width: 100%;
+    height: 50vh;
+}
+.contact-content{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.discr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.discr > h3{
+    color: red;
+}
+.info-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.info-area > input , textarea{
+    background: #5c7fefcb;
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.button-mail{
+    background: #FF3946;
+    border: none;
+    border-radius: 25px;
+    padding: 0.8rem;
+}
+.mail-link{
+    text-decoration: none;
+    color: white;
+}
+
+
 @media (max-width: 480px) {
 
     header{
