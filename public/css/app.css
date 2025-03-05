@@ -385,4 +385,43 @@ nav{
     text-decoration: none;
     color: white;
 }
+/* footer despo  */
+footer{
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    background: #314584;
+}
+.footer-content{
+    margin-top: 2rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.footer-discrp > h1{
+    color: #FF3946;
+    padding-inline: 1rem;
+}
+.footer-nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.footer-nav-links > .f-l{
+    text-decoration: none;
+    color: white;
+}
+
+.links-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 }
